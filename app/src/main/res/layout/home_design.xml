@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Sub_headertxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="sub_headertxt1"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Desc_Text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Sub_headertxt1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Desc_Text1"
+            android:textColor="#070707"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/Desc_Text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Desc_Text1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Desc_Text2"
+            android:textColor="#040404"
+            android:textSize="12dp" />
+
+        <Button
+            android:drawableStart="@drawable/ic_baseline_shopping_bag_24"
+            android:background="@drawable/button2_back"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Desc_Text2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="5dp"
+            android:text="Shop Now"
+            android:textSize="12dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/Header1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="Header1"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/Image_View1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Header1"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/Desc_Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Header1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/Image_View1"
+            android:text="Desc_Text3"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <Button
+            android:drawableStart="@drawable/ic_baseline_shopping_bag_24"
+            android:background="@drawable/button2_back"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Image_View1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="10dp"
+            android:text="Shop Now"
+            android:textSize="12dp"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:id="@+id/Image_View2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentStart="true"
+            android:layout_margin="15dp" />
+
+        <TextView
+            android:id="@+id/Desc_Text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/Image_View2"
+            android:text="Desc_Text4"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:drawableStart="@drawable/ic_baseline_shopping_bag_24"
+            android:background="@drawable/button2_back"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Image_View2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="5dp"
+            android:text="Shop Now"
+            android:textSize="12dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/Header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Header2"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:background="@drawable/button2_back"
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Header2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="120dp"
+            android:text="Click here to know more"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:id="@+id/vec1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/button4"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_biodegradable_logo" />
+
+
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vec1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Text1"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/vec2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/button4"
+            android:layout_toRightOf="@+id/Text1"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_baseline_star_24" />
+
+        <TextView
+            android:id="@+id/Text2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vec2"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/Text1"
+            android:text="Text2"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/vec3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/Text1"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_baseline_commute_24" />
+
+        <TextView
+            android:id="@+id/Text3"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vec3"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Text3"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/vec4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/Text2"
+            android:layout_toRightOf="@id/Text1"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_baseline_attach_money_24" />
+
+        <TextView
+            android:id="@+id/Text4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vec4"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/Text3"
+            android:text="Text4"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/Header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Text3"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="Header3"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Desc_Text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Header3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Desc_Text5"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <Button
+            android:background="@drawable/button2_back"
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Desc_Text5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="5dp"
+            android:text="CUSTOMIZE TODAY"
+            android:textSize="10dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button5"
+            android:layout_margin="10dp"
+            android:text="footer"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
